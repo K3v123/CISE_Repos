@@ -1,0 +1,22 @@
+{
+  "name": "cise_ass1a_worksheet2",
+  "version": "1.0.0",
+  "description": "mern app",
+  "main": "serves.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/K3v123/CISE_Repos.git"
+  },
+  "keywords": [
+    "CISE"
+  ],
+  "author": "William",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/K3v123/CISE_Repos/issues"
+  },
+  "homepage": "https://github.com/K3v123/CISE_Repos#readme"
+}
