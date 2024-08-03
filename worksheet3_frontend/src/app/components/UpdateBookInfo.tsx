@@ -38,7 +38,7 @@ function UpdateBookInfo() {
     event.preventDefault();
 
 
-    fetch(`http://localhost:8082/api/books/${id}`, {method: 'PUT', headers: {"Content-Type": "application/json"}, body: JSON.stringify(book)})
+    fetch(process.env.NEXT_PUBLIC_BACKEND_URL + `/api/books/${id}`, {method: 'PUT', headers: {"Content-Type": "application/json"}, body: JSON.stringify(book)})
       .then((res) => {
         router.push(`/show-book/${id}`);
       })
