@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 import "bootstrap/dist/css/bootstrap.css";
 import "./globals.css";
 import BootstrapClient from "@/app/components/BootstrapClient";
-"app/components/BootstrapClient.ts"
+//"app/components/BootstrapClient.ts"
 //@/components/BootstrapClient
 const inter = Inter({ subsets: ["latin"] });
 
