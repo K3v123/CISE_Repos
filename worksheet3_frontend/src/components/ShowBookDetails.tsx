@@ -12,7 +12,7 @@ function ShowBookDetails() {
   const navigate = useRouter();
 
   useEffect(() => {
-    fetch(`process.env.NEXT_PUBLIC_BACKEND_URL + `/api/books/${id}``)
+    fetch(`http://localhost:8082/api/books/${id}`)
       .then((res) => {
         return res.json()
       })
