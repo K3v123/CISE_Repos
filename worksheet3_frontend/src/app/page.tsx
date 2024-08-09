@@ -2,7 +2,7 @@ import Image from "next/image";
 'use client'
 
 //@/components/ShowBookList
-import ShowBookList from "@/app/components/BootstrapClient";
+import ShowBookList from "@/app/components/ShowBookList"
 
 import UpdateBookInfo from "@/app/components/UpdateBookInfo";
 import ShowBookDetails from "@/app/components/ShowBookDetails";
@@ -13,8 +13,8 @@ export default function Home() {
   return (
     <main>
       <ShowBookList />
-      <UpdateBookInfo />
-      <ShowBookDetails />
+      {/* <UpdateBookInfo />
+      <ShowBookDetails /> */}
     </main>
   );
 }
